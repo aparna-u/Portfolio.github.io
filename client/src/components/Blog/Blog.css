@@ -1,0 +1,9 @@
+.div5{
+    position: relative;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background-color:#BECBE5;
+}
