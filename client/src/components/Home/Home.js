@@ -8,7 +8,7 @@ function Home (){
         <div className="div1" style={{ 
             backgroundImage: `url(${Back})` 
           }}>
-           <div className='p1' >Hello</div>
+           <div className='p1'>Hello</div>
            {/* <div>
                <p className='text1'>Hi,<br/>I am Aparna Udayakumar<br/>Web Developer  </p>
            </div> */}

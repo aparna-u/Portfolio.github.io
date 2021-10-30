@@ -3,25 +3,35 @@ import './header.css'
 import {Navbar,Nav,Container} from 'react-bootstrap';
 
 function Header (){
-    return (
-        
- <div>
-    <Navbar className="d-block" fixed="top" bg="dark" variant="dark">
-        <Container>
-            <Navbar.Brand href="#home">Aparna Udayakumar</Navbar.Brand>
-            <Nav className="justify-content-end">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#experience">Experience</Nav.Link>
-                <Nav.Link href="#education">Education</Nav.Link>
-                <Nav.Link href="#blog">Blog</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-        </Container>
-    </Navbar>
-</div> 
-    )
+return (
 
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Container>
+  <Navbar.Brand href="#home">Aparna Udayakumar</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="justify-content-end">
+      <Nav.Link href="#deets">Home</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        About
+      </Nav.Link>
+      <Nav.Link eventKey={3} href="#memes">
+        Experience
+      </Nav.Link>
+      <Nav.Link eventKey={4} href="#memes">
+        Education
+      </Nav.Link>
+      <Nav.Link eventKey={5} href="#memes">
+        Blog
+      </Nav.Link>
+      <Nav.Link eventKey={6} href="#memes">
+        Contact
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
+        )
 }
 
 export default Header;

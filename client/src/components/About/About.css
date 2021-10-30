@@ -1,10 +1,48 @@
 .div2 {
     position: relative;
-    display: inline-block;
+    display:block;
     top: 0;
     bottom: 0;
-    height: 500px;
+    height: 100vh;
     width: 100%;
     background-color:#ebeef3;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+.text1{
+    font-family: 'Besley', serif;
+    text-align: center;
+    display: block;
+    font-size: 35px;
+    
+}
+
+.text2{
+    font-family: 'Besley', serif;
+    text-align: justify;
+    display: block;
+    
+}
+
+.text-justify{
+    text-align: justify;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .text2 {
+      font-size: 25px;
+      padding-top: 12%;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .text2 {
+      font-size: 15px;
+      padding-top:20%;
+    }
+  }

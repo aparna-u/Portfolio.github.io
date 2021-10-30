@@ -3,7 +3,40 @@
     display: inline-block;
     top: 0;
     bottom: 0;
-    height: 300px;
+    height: 100vh;
     width: 100%;
-    background-color:#BECBE5;
+    background-color:whitesmoke;
+}
+.text-center{
+    text-align:center;
+}
+.image1{
+    padding-top: 30vh;
+    padding-left:70vh
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-center {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.link{
+    color: black !important;
+    text-decoration: none !important;
+}
+.link:hover{
+    color:lightblue
+}
+
+.color-grey{
+    background-color: #bbbdbf;
+}
+
+.font-24{
+    font-size:24px
 }
