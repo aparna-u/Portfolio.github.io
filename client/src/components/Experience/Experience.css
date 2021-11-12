@@ -24,6 +24,12 @@
     padding-left:0;
 }
 
+div .icon,
+div .description {
+  max-width: max-content;
+  min-width: max-content;
+}
+
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
     div.example {
@@ -35,5 +41,14 @@
   @media screen and (max-width: 600px) {
     div.example {
       font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    div .icon,
+    div .description {
+      min-width: 100%;
+      margin-bottom: 15px;
+      text-align: center;
     }
   }
