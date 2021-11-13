@@ -10,7 +10,7 @@ function About (){
                 <p className='text2'> 
                     Hi Guys 👋. 
                      <br/>I have completed my Bachelor's of Technology degree in Sept 2020.
-                    <br/>I am currently working in Tata Consultancy Services as Assistant System Engineer.
+                    <br/>I am currently working at Tata Consultancy Services as Assistant System Engineer.
                     <br/>Passionate about Web development and Python programming. 
                     <br/>I have contributed to Open source projects.  
                 </p>
