@@ -7,3 +7,26 @@
     width: 100%;
     background-color: #ebeef3;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.text-center{
+    text-align:center;
+}
+
+div .icon,
+div .description {
+  max-width: max-content;
+  min-width: max-content;
+}
+
+@media screen and (max-width: 450px) {
+    div .icon,
+    div .description {
+      min-width: 100%;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }

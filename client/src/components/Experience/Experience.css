@@ -16,13 +16,6 @@
   .text-center{
       text-align:center;
   }
-  .td{
-      display:table-cell;
-  }
-  .padding-0{
-    padding-right:0;
-    padding-left:0;
-}
 
 div .icon,
 div .description {
