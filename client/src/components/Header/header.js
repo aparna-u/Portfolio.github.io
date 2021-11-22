@@ -11,20 +11,20 @@ return (
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="justify-content-end">
-      <Nav.Link href="#Home">Home</Nav.Link>
-      <Nav.Link eventKey={2} href="#About">
+      <Nav.Link href="#deets">Home</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
         About
       </Nav.Link>
-      <Nav.Link eventKey={3} href="#Experience">
+      <Nav.Link eventKey={3} href="#memes">
         Experience
       </Nav.Link>
-      <Nav.Link eventKey={4} href="#Education">
+      <Nav.Link eventKey={4} href="#memes">
         Education
       </Nav.Link>
-      <Nav.Link eventKey={5} href="#Blog">
+      <Nav.Link eventKey={5} href="#memes">
         Blog
       </Nav.Link>
-      <Nav.Link eventKey={6} href="#Contact">
+      <Nav.Link eventKey={6} href="#memes">
         Contact
       </Nav.Link>
     </Nav>
