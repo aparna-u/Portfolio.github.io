@@ -10,8 +10,17 @@
 .text-center{
     text-align:center;
 }
-.center {
+.centerc {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media screen and (max-width: 1500px) {
+ 
+    div .sicon{
+      min-width: 100%;
+      margin-bottom: 15px;
+      text-align: center;
+    }
   }

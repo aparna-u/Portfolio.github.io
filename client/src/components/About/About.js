@@ -3,6 +3,8 @@ import './About.css';
 
 function About (){
     return (
+        <React.Fragment>
+    <div id ='About'>
         <div className="div2 pt-4">  
             <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className="text1">  About Myself</h2>
             <br/>
@@ -17,6 +19,8 @@ function About (){
             </div>
             
         </div>
+    </div>
+        </React.Fragment>
     )
 
 }

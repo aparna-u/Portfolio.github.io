@@ -3,7 +3,8 @@ import './Footer.css'
 function Footer (){
     return (
         <div className="footer">
-            <h2>Footer</h2>
+            <h5 className='center1 pt-3'>Copyright @2021</h5>
+
         </div>
     )
 

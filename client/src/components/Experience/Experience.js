@@ -4,6 +4,7 @@ import './Experience.css'
 import img from './laptop-fill.svg';
 function Experience (){
     return (
+        <div id="Experience">
         <div className="div4 pt-5"> 
         <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className='text-center'>Experience</h2>
             <div className='container pt-5'>
@@ -22,6 +23,7 @@ function Experience (){
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 

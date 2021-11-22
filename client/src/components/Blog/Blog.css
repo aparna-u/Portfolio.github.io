@@ -42,9 +42,27 @@
 
 
 }
-@media only screen and (max-width: 710px) {
-    img{
-        max-width: 100%
+div .icon,
+div .description {
+  max-width: max-content;
+  min-width: max-content;
+}
+.text2{
+    font-family: 'Besley', serif;
+    text-align: justify;
+    display: block;
+    
+}
+
+@media screen and (max-width: 850px) {
+    div .icon,
+    div .description {
+      min-width: 100%;
+      margin-bottom: 15px;
+      text-align: center;
     }
- 
   }
+
+@media (min-width:450px) and (max-width:850px){
+   
+}
