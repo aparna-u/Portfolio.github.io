@@ -15,7 +15,7 @@ function Blog (){
         setBgcolor('black')
     }
     return (
-        <div className="div5">
+        <div className="div5" id="blog">
         <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className='text-center pt-5 pb-5'>BLOG</h2>
         {/* <div>
             <img 

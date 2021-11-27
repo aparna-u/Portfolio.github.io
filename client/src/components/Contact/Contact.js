@@ -5,7 +5,7 @@ import './Contact.css'
 
 function Contact (){
     return (
-        <div className="div6">
+        <div className="div6" id='contact'>
         <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className='text-center pt-5'>Contacting Me</h2>
         <div className='center'>
             <p> Feel free to talk to me about anything that bothers you. 

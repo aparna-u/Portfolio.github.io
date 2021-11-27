@@ -4,7 +4,7 @@ import './Experience.css'
 import img from './laptop-fill.svg';
 function Experience (){
     return (
-        <div className="div4 pt-5"> 
+        <div className="div4 pt-5" id="experience"> 
         <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className='text-center'>Experience</h2>
             <div className='container pt-5'>
                 <div className='row no-gutters justify-content-center flex-wrap' >

@@ -4,7 +4,7 @@ import './Education.css'
 import img from './education-fill.svg'
 function Education (){
     return (
-        <div className="div3 pt-5">
+        <div className="div3 pt-5" id="education">
             <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px', 'text-align':'center'}}>
                 Education
             </h2>

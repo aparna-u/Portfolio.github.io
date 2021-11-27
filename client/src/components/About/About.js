@@ -3,7 +3,7 @@ import './About.css';
 
 function About (){
     return (
-        <div className="div2 pt-4">  
+        <div className="div2 pt-4" id="about">  
             <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className="text1">  About Myself</h2>
             <br/>
             <div className='center'>
