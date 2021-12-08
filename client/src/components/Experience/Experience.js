@@ -6,7 +6,7 @@ function Experience (){
     return (
         <div className="div4 pt-5" id="experience"> 
         <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px'}}className='text-center'>Experience</h2>
-            <div className='container pt-5'>
+            <div className='text2 container pt-5'>
                 <div className='row no-gutters justify-content-center flex-wrap' >
                     <div className='col icon'>
                         <img

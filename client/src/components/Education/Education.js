@@ -5,10 +5,10 @@ import img from './education-fill.svg'
 function Education (){
     return (
         <div className="div3 pt-5" id="education">
-            <h2 style={{"font-family": 'Crete Round, serif', 'font-size': '48px', 'text-align':'center'}}>
+            <h1 style={{"font-family": 'Crete Round, serif', 'font-size': '48px', 'text-align':'center'}}>
                 Education
-            </h2>
-            <div className='container pt-5'>
+            </h1>
+            <div className='text2 container pt-5'>
                 <div className='row no-gutters justify-content-center flex-wrap' >
                     <div className='col icon'>
                     <img

@@ -1,3 +1,72 @@
 .div{
     height: 1000px;
 }
+back-top {
+    position: relative;
+    top: 0;
+    display: block;
+}
+
+html * {
+    outline: 0 !important;
+}
+.back-top.active a {
+    opacity: 1;
+    top: 90%;
+}
+
+.back-top a {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid #FECC2F;
+    background-color: #FECC2F;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 100;
+    color: #fff;
+    top: 0;
+    opacity: 0;
+    transition: all 0.8s linear 0s;
+}
+html * {
+    outline: 0 !important;
+}
+.fa-angle-up:before {
+    content: "\f106";
+}
+.back-top a::after {
+    border-radius: 50%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 40px;
+    height: 40px;
+    animation: ripple 1.6s ease-out infinite;
+    opacity: 1;
+    background: #2c62de;
+}
+.back-top a {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid #FECC2F;
+    background-color: #FECC2F;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 100;
+    color: #fff;
+    top: 0;
+    opacity: 0;
+    transition: all 0.8s linear 0s;
+}
