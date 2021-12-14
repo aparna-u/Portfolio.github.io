@@ -1,28 +1,81 @@
+
 .div1 {
     position: relative;
-    display: inline-block;
+    display: block;
     top: 0;
     bottom: 0;
     height: 100vh;
     width: 100%;
-    background-color: #ddeedf;
+    background-color: #000000e6;
     background-size: 100% 100%;
+    margin:0 auto
     
 }
 
-.p1{
-    padding-top: 20px;
-    visibility: hidden;
-}
-
-.image1{
-    padding-top: 30vh;
-    padding-left:70vh
-}
-
-.text{
-    padding-top: 15%;
-    padding-left:40%;
-    position:relative;
+.div12{
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000e6;
     background-size: 100% 100%;
+    
+    
 }
+
+/* padding top */
+.p-t-15{
+    padding-top: 15%;
+}
+
+/* Text  */
+.texthome{
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    /* position: absolute; */
+    
+    /* animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1; */
+}
+.texthome:hover {
+    color: #49edff !important;
+    /* animation: effect linear 1s; */
+
+}
+.texthome1{
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    /* position: absolute; */
+    
+    /* animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1; */
+}
+.texthome1:hover {
+    color: #da69ee !important;
+    /* animation: effect linear 1s; */
+    font-size:7vw;
+
+}
+
+ /* text animarion rubber band */
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .texth {
+      font-size: 90px;
+     
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .texth {
+      font-size: 40px;
+      
+    }
+  }

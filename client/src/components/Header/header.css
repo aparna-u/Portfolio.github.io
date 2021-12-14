@@ -1,6 +1,9 @@
 .div1 {
     height: 66px;
     width: 100%;
-    
+    /* #013640 */
     
   }
+  .bg-primary {
+    background-color: #002636 !important;
+}

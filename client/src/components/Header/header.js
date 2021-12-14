@@ -1,13 +1,23 @@
 import React from 'react';
 import './header.css'
 import {Navbar,Nav,Container} from 'react-bootstrap';
+import Icon from './Icon.png'
 
 function Header (){
 return (
 
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{backgroundColor:'#013640'}}>
   <Container>
-  <Navbar.Brand href="#home">Aparna Udayakumar</Navbar.Brand>
+  <Navbar.Brand href="#home">
+      <img
+        src={Icon}
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="React Bootstrap logo"
+      />
+    </Navbar.Brand>
+  {/* <Navbar.Brand href="#home">Aparna Udayakumar</Navbar.Brand> */}
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="justify-content-end">
