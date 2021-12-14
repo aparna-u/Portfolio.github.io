@@ -1,9 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './Home.css'
-import Back from './Home.gif'
-import bgImage from './backgroundImage1.gif'
-import * as d3 from "d3";
+
 
 
 function Home (){
